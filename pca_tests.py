@@ -5,6 +5,7 @@ from pca import PCA
 
 
 #data = datasets.load_digits()
+
 data = datasets.load_iris()
 X = data.data
 y = data.target
